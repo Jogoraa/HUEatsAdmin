@@ -23,7 +23,6 @@ import Typography from "views/Typography.js";
 import TableList from "views/Tables.js";
 import Maps from "views/OrderSection.js";
 import UserPage from "views/User.js";
-import SignUp from "components/Login/SignUp";
 
 var routes = [
 

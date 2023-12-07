@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Navbar from '../Navbar/Navbar'
 import './OrderSection.css'
 import { collection, doc, getDocs, setDoc } from "firebase/firestore";
 import { db, storage } from '../../Firebase/FirebaseConfig'
@@ -84,8 +83,6 @@ const OrderSection = () => {
 
     return (
         <div className="order-section">
-            <Navbar />
-            <h1 className="order-head1">Order Section</h1>
             <div className="order-s1">
                 <input type="text" placeholder="Search by order id or delivery status" className='searchbar'
                     onChange={(e) => setKeyword(e.target.value)} />

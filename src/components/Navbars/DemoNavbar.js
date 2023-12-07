@@ -160,7 +160,7 @@ function Header(props) {
                 <DropdownItem tag={Link} to="/User">
                   Profile
                 </DropdownItem>
-                <DropdownItem onClick={handleLogout}>Logout</DropdownItem>
+                <DropdownItem tag={Link} to="/login" onClick={handleLogout}> Logout</DropdownItem>
               </DropdownMenu>
             </Dropdown>
           </Nav>
